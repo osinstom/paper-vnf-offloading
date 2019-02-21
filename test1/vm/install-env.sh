@@ -24,14 +24,9 @@ EOF
 
 cloud-localds user-data.img user-data
 
-wget https://cloud-images.ubuntu.com/bionic/current/bionic-server-cloudimg-amd64.img
-qemu-img resize bionic-server-cloudimg-amd64.img 10G
-sudo qemu-img convert -f qcow2 bionic-server-cloudimg-amd64.img bionic-server-cloudimg-amd64.qcow2
-
-sudo virt-install -n demo01 -r 256 --vcpus 2 --os-type linux --os-variant ubuntu16.04 \
-	          --network bridge=br0,virtualport_type='openvswitch' \
+sudo virt-install -n demo01 -r 8192  --vcpus 8 --os-type linux \
+                  --os-variant ubuntu16.04 --network bridge=br0,virtualport_type='openvswitch' \
+                  --network bridge=br0,virtualport_type='openvswitch' \
                   --graphics none --hvm --virt-type kvm \
-		  --disk bionic-server-cloudimg-amd64.qcow2,format=qcow2,bus=virtio \
-		  --disk user-data.img,device=cdrom --noautoconsole --import
-
-
+                  --disk ovs.qcow2,format=qcow2,bus=virtio \
+                  --disk user-data.img,device=cdrom --noautoconsole --import
