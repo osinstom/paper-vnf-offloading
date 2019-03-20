@@ -1,0 +1,17 @@
+PMD_CPU_MASK:-0x1E1801E18
+QEMU_DIR:-/home/tomek/dpdk/qemu
+DPDK_PCI2:-0000:88:00.0
+VHOST_MAC1:-00:00:00:00:00:01
+DPDK_TARGET:-x86_64-native-linuxapp-gcc
+DPDK_PCI3:-
+VM_IMAGE:-/home/tomek/ovs.qcow2
+DPDK_PCI1:-0000:88:00.0
+DPDK_DIR:-/home/tomek/dpdk/dpdk-18.11
+VHOST_MAC2:-00:00:00:00:00:02
+DPDK_PCI4:-
+OVS_DIR:-/home/tomek/dpdk/ovs
+KERNEL_NIC_DRV:-ixgbe
+DPDK_NIC1:-dpdk0
+VHOST_NIC2:-dpdkvhostuser1
+VHOST_NIC1:-dpdkvhostuser0
+DPDK_NIC2:-dpdk1
