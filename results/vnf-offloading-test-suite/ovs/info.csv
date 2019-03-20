@@ -1,0 +1,2 @@
+Test Suite,Test Name Str,Product Name,Version Number,Serial Number,Comments,UserName,Date,Time,Number of Trials Executed,Number of Trials Passed,Stream Duration (s),Test Duration,Customer
+RFC2544,Throughput/Latency,Your switch/router name here,Your firmware version here,Your switch/router serial number here,,,02.21.19,11:39:02,1,N/A,30,00:41:44,

@@ -1,0 +1,45 @@
+sudo apt install qemu-system-x86
+
+sudo mkdir -p /dev/hugepages/libvirt 
+sudo mkdir -p /dev/hugepages/libvirt/qemu 
+sudo mount -t hugetlbfs hugetlbfs /dev/hugepages/libvirt/qemu 
+
+Following changes to /etc/libvirt/qemu.conf:
+
+Set user and group to the sudoer (user with sudo priviliges)
+
+user = "root"
+group = "root"
+
+And set hugetlbfs_mount to "/dev/hugepages/":
+
+hugetlbfs_mount = "/dev/hugepages"
+
+Install selinux-utils and disable SELinux:
+
+sudo apt install selinux-utils
+setenforce 0
+
+Now, restart libvirt service:
+
+sudo systemctl restart libvirtd.service
+
+Setup OVS ports (vhostuser):
+
+Before, make sure that vhost sockets are removed.
+
+sudo rm /usr/local/var/run/openvswitch/vhost-user-0
+sudo rm /usr/local/var/run/openvswitch/vhost-user-1
+
+Then, add ports to OVS:
+
+sudo ovs-vsctl add-port br0 vhost-user-0 -- set Interface vhost-user-0 type=dpdkvhostuser
+sudo ovs-vsctl add-port br0 vhost-user-1 -- set Interface vhost-user-1 type=dpdkvhostuser
+
+sudo usertools/dpdk-devbind.py -b igb_uio 0000:00:02.0 0000:00:03.0
+
+// Run testpmd app
+
+sudo ./x86_64-native-linuxapp-gcc/app/testpmd  --auto-start -c f -n 1 -m 1024 -- -i
+
+

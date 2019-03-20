@@ -1,0 +1,26 @@
+// Clear all flows on br0
+sudo ovs-ofctl del-flows br0
+
+sudo ovs-ofctl add-flow br0 in_port=12,dl_dst=00:00:05:c2:02:6f,actions=output:1
+sudo ovs-ofctl add-flow br0 in_port=12,dl_dst=00:00:05:c2:6d:9d,actions=output:2
+sudo ovs-ofctl add-flow br0 in_port=1,actions=output:12
+sudo ovs-ofctl add-flow br0 in_port=2,actions=output:12
+
+
+// OVS-VM-OVS
+sudo ovs-ofctl add-flow br0 in_port=1,actions=output:3
+sudo ovs-ofctl add-flow br0 in_port=2,actions=output:4
+sudo ovs-ofctl add-flow br0 in_port=3,actions=output:1
+sudo ovs-ofctl add-flow br0 in_port=4,actions=output:2
+
+// PHY-OVS-PHY
+sudo ovs-ofctl add-flow br0 in_port=1,actions=output:2
+sudo ovs-ofctl add-flow br0 in_port=2,actions=output:1
+
+sudo ovs-ofctl add-flow br0 in_port=2,actions=output:3
+sudo ovs-ofctl add-flow br0 in_port=4,actions=output:1
+sudo ovs-ofctl add-flow br0 in_port=3,actions=output:2
+sudo ovs-ofctl add-flow br0 in_port=1,actions=output:4
+
+sudo ovs-ofctl add-flow br0 in_port=2,actions=output:4
+sudo ovs-ofctl add-flow br0 in_port=4,actions=output:2
