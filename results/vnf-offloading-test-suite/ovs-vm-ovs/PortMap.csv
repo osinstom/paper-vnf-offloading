@@ -1,0 +1,2 @@
+Tx Port,Tx Speed (Mbps),Rx Port,Rx Speed (Mbps)
+10.140.0.123:1:7,10000,10.140.0.123:1:8,10000

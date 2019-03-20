@@ -1,0 +1,23 @@
+<XMD>
+<Sources>
+<Source scope="Global" entity_name="" format_id="IxNetwork-ControlPlane">
+<Fields>
+<Field>
+<Name>AppName</Name>
+<Value>IxNetwork</Value>
+</Field>
+<Field>
+<Name>AppVersion</Name>
+<Value>6.00</Value>
+</Field>
+</Fields>
+</Source>
+<Source scope="info.csv" entity_name="RFC2544_Info" format_id="Default"/>
+<Source scope="AggregateResults.csv" entity_name="RFC2544_Aggregate" format_id="Default"/>
+<Source scope="iteration.csv" entity_name="RFC2544_Iteration" format_id="Default"/>
+<Source scope="results.csv" entity_name="RFC2544_Data" format_id="Default"/>
+<Source scope="AggregatedResultsPerIteration.csv" entity_name="AllIterations_Aggregated" format_id="Default"/>
+<Source scope="PortMap.csv" entity_name="Port_Map" format_id="Default"/>
+</Sources>
+</XMD>
+

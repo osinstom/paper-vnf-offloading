@@ -1,0 +1,81 @@
+[VER=1.1]
+ColumnCount=22
+DecimalPrecision=3
+Trial=System.String
+Framesize=System.String
+Iteration=System.String
+Tx Port=System.String
+Rx Port=System.String
+Traffic Item=System.String
+Flow Group=System.String
+Tx Rate (% Line Rate)=System.Double
+Rx Throughput (% Line Rate)=System.Double
+L1 Tx Rate(bps)=System.Double
+L1 Rx Rate(bps)=System.Double
+Rx Throughput (fps)=System.Double
+Rx Throughput (Gbps)=System.Double
+Tx Count (frames)=System.Int64
+Rx Count (frames)=System.Int64
+Frame Loss (frames)=System.Int64
+Frame Loss (%)=System.Double
+Min Latency (ns)=System.Int64
+Max Latency (ns)=System.Int64
+Min Delay Variation (ns)=System.Int64
+Max Delay Variation (ns)=System.Int64
+Avg Delay Variation (ns)=System.Double
+Framesize=86?Iteration=1?Trial=1><0/1/370/611
+Framesize=86?Iteration=2?Trial=1><1/2/611/852
+Framesize=86?Iteration=3?Trial=1><2/3/852/1090
+Framesize=86?Iteration=4?Trial=1><3/4/1090/1328
+Framesize=86?Iteration=5?Trial=1><4/5/1328/1561
+Framesize=86?Iteration=6?Trial=1><5/6/1561/1795
+Framesize=86?Iteration=7?Trial=1><6/7/1795/2028
+Framesize=86?Iteration=8?Trial=1><7/8/2028/2261
+Framesize=128?Iteration=1?Trial=1><8/9/2261/2503
+Framesize=128?Iteration=2?Trial=1><9/10/2503/2744
+Framesize=128?Iteration=3?Trial=1><10/11/2744/2983
+Framesize=128?Iteration=4?Trial=1><11/12/2983/3217
+Framesize=128?Iteration=5?Trial=1><12/13/3217/3451
+Framesize=128?Iteration=6?Trial=1><13/14/3451/3684
+Framesize=128?Iteration=7?Trial=1><14/15/3684/3916
+Framesize=128?Iteration=8?Trial=1><15/16/3916/4149
+Framesize=256?Iteration=1?Trial=1><16/17/4149/4390
+Framesize=256?Iteration=2?Trial=1><17/18/4390/4628
+Framesize=256?Iteration=3?Trial=1><18/19/4628/4863
+Framesize=256?Iteration=4?Trial=1><19/20/4863/5094
+Framesize=256?Iteration=5?Trial=1><20/21/5094/5325
+Framesize=256?Iteration=6?Trial=1><21/22/5325/5555
+Framesize=256?Iteration=7?Trial=1><22/23/5555/5785
+Framesize=256?Iteration=8?Trial=1><23/24/5785/6013
+Framesize=512?Iteration=1?Trial=1><24/25/6013/6251
+Framesize=512?Iteration=2?Trial=1><25/26/6251/6486
+Framesize=512?Iteration=3?Trial=1><26/27/6486/6717
+Framesize=512?Iteration=4?Trial=1><27/28/6717/6947
+Framesize=512?Iteration=5?Trial=1><28/29/6947/7174
+Framesize=512?Iteration=6?Trial=1><29/30/7174/7403
+Framesize=512?Iteration=7?Trial=1><30/31/7403/7632
+Framesize=512?Iteration=8?Trial=1><31/32/7632/7859
+Framesize=1024?Iteration=1?Trial=1><32/33/7859/8097
+Framesize=1024?Iteration=2?Trial=1><33/34/8097/8328
+Framesize=1024?Iteration=3?Trial=1><34/35/8328/8559
+Framesize=1024?Iteration=4?Trial=1><35/36/8559/8789
+Framesize=1024?Iteration=5?Trial=1><36/37/8789/9018
+Framesize=1024?Iteration=6?Trial=1><37/38/9018/9248
+Framesize=1024?Iteration=7?Trial=1><38/39/9248/9476
+Framesize=1024?Iteration=8?Trial=1><39/40/9476/9705
+Framesize=1280?Iteration=1?Trial=1><40/41/9705/9939
+Framesize=1280?Iteration=2?Trial=1><41/42/9939/10169
+Framesize=1280?Iteration=3?Trial=1><42/43/10169/10399
+Framesize=1280?Iteration=4?Trial=1><43/44/10399/10629
+Framesize=1280?Iteration=5?Trial=1><44/45/10629/10859
+Framesize=1280?Iteration=6?Trial=1><45/46/10859/11086
+Framesize=1280?Iteration=7?Trial=1><46/47/11086/11314
+Framesize=1280?Iteration=8?Trial=1><47/48/11314/11543
+Framesize=1518?Iteration=1?Trial=1><48/49/11543/11776
+Framesize=1518?Iteration=2?Trial=1><49/50/11776/12007
+Framesize=1518?Iteration=3?Trial=1><50/51/12007/12235
+Framesize=1518?Iteration=4?Trial=1><51/52/12235/12465
+Framesize=1518?Iteration=5?Trial=1><52/53/12465/12693
+Framesize=1518?Iteration=6?Trial=1><53/54/12693/12920
+Framesize=1518?Iteration=7?Trial=1><54/55/12920/13148
+Framesize=1518?Iteration=8?Trial=1><55/56/13148/13375

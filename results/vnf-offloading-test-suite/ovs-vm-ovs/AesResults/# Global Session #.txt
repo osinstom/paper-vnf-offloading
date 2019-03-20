@@ -1,0 +1,76 @@
+02-21-19 09:46:03 INFO 0 Starting Apply Config execution. 
+02-21-19 09:46:40 INFO 0 Starting loop LoopId=trials, InitialValue=1, MaxValue=1, IncrementStep=1 
+02-21-19 09:46:40 INFO 0 LoopId: trials, current loop value 1. 
+02-21-19 09:46:41 INFO 0 Starting loop LoopId=framesizes, Values=[64,128,256,512,1024,1280,1518]. 
+02-21-19 09:46:41 INFO 0 LoopId: framesizes, current loop value 64. 
+02-21-19 09:46:42 INFO 0 Starting loop Ixia.QuickTests.Core.Composer.LoopControl.Execution.BinaryLoopEngine 
+02-21-19 09:46:42 INFO 0 Starting Loop iteration. 
+02-21-19 09:47:28 INFO 0 Starting Loop iteration. 
+02-21-19 09:48:11 INFO 0 Starting Loop iteration. 
+02-21-19 09:48:55 INFO 0 Starting Loop iteration. 
+02-21-19 09:49:38 INFO 0 Starting Loop iteration. 
+02-21-19 09:50:21 INFO 0 Starting Loop iteration. 
+02-21-19 09:51:05 INFO 0 Starting Loop iteration. 
+02-21-19 09:51:49 INFO 0 Starting Loop iteration. 
+02-21-19 09:52:32 INFO 0 LoopId: framesizes, current loop value 128. 
+02-21-19 09:52:33 INFO 0 Starting loop Ixia.QuickTests.Core.Composer.LoopControl.Execution.BinaryLoopEngine 
+02-21-19 09:52:33 INFO 0 Starting Loop iteration. 
+02-21-19 09:53:17 INFO 0 Starting Loop iteration. 
+02-21-19 09:54:01 INFO 0 Starting Loop iteration. 
+02-21-19 09:54:45 INFO 0 Starting Loop iteration. 
+02-21-19 09:55:29 INFO 0 Starting Loop iteration. 
+02-21-19 09:56:13 INFO 0 Starting Loop iteration. 
+02-21-19 09:56:56 INFO 0 Starting Loop iteration. 
+02-21-19 09:57:40 INFO 0 Starting Loop iteration. 
+02-21-19 09:58:23 INFO 0 LoopId: framesizes, current loop value 256. 
+02-21-19 09:58:24 INFO 0 Starting loop Ixia.QuickTests.Core.Composer.LoopControl.Execution.BinaryLoopEngine 
+02-21-19 09:58:24 INFO 0 Starting Loop iteration. 
+02-21-19 09:59:07 INFO 0 Starting Loop iteration. 
+02-21-19 09:59:51 INFO 0 Starting Loop iteration. 
+02-21-19 10:00:34 INFO 0 Starting Loop iteration. 
+02-21-19 10:01:17 INFO 0 Starting Loop iteration. 
+02-21-19 10:02:01 INFO 0 Starting Loop iteration. 
+02-21-19 10:02:44 INFO 0 Starting Loop iteration. 
+02-21-19 10:03:28 INFO 0 Starting Loop iteration. 
+02-21-19 10:04:13 INFO 0 LoopId: framesizes, current loop value 512. 
+02-21-19 10:04:14 INFO 0 Starting loop Ixia.QuickTests.Core.Composer.LoopControl.Execution.BinaryLoopEngine 
+02-21-19 10:04:14 INFO 0 Starting Loop iteration. 
+02-21-19 10:04:57 INFO 0 Starting Loop iteration. 
+02-21-19 10:05:41 INFO 0 Starting Loop iteration. 
+02-21-19 10:06:24 INFO 0 Starting Loop iteration. 
+02-21-19 10:07:08 INFO 0 Starting Loop iteration. 
+02-21-19 10:07:52 INFO 0 Starting Loop iteration. 
+02-21-19 10:08:36 INFO 0 Starting Loop iteration. 
+02-21-19 10:09:19 INFO 0 Starting Loop iteration. 
+02-21-19 10:10:03 INFO 0 LoopId: framesizes, current loop value 1024. 
+02-21-19 10:10:03 INFO 0 Starting loop Ixia.QuickTests.Core.Composer.LoopControl.Execution.BinaryLoopEngine 
+02-21-19 10:10:04 INFO 0 Starting Loop iteration. 
+02-21-19 10:10:48 INFO 0 Starting Loop iteration. 
+02-21-19 10:11:31 INFO 0 Starting Loop iteration. 
+02-21-19 10:12:15 INFO 0 Starting Loop iteration. 
+02-21-19 10:12:58 INFO 0 Starting Loop iteration. 
+02-21-19 10:13:42 INFO 0 Starting Loop iteration. 
+02-21-19 10:14:25 INFO 0 Starting Loop iteration. 
+02-21-19 10:15:09 INFO 0 Starting Loop iteration. 
+02-21-19 10:15:53 INFO 0 LoopId: framesizes, current loop value 1280. 
+02-21-19 10:15:54 INFO 0 Starting loop Ixia.QuickTests.Core.Composer.LoopControl.Execution.BinaryLoopEngine 
+02-21-19 10:15:54 INFO 0 Starting Loop iteration. 
+02-21-19 10:16:37 INFO 0 Starting Loop iteration. 
+02-21-19 10:17:21 INFO 0 Starting Loop iteration. 
+02-21-19 10:18:05 INFO 0 Starting Loop iteration. 
+02-21-19 10:18:50 INFO 0 Starting Loop iteration. 
+02-21-19 10:19:33 INFO 0 Starting Loop iteration. 
+02-21-19 10:20:17 INFO 0 Starting Loop iteration. 
+02-21-19 10:21:00 INFO 0 Starting Loop iteration. 
+02-21-19 10:21:44 INFO 0 LoopId: framesizes, current loop value 1518. 
+02-21-19 10:21:45 INFO 0 Starting loop Ixia.QuickTests.Core.Composer.LoopControl.Execution.BinaryLoopEngine 
+02-21-19 10:21:45 INFO 0 Starting Loop iteration. 
+02-21-19 10:22:28 INFO 0 Starting Loop iteration. 
+02-21-19 10:23:12 INFO 0 Starting Loop iteration. 
+02-21-19 10:23:56 INFO 0 Starting Loop iteration. 
+02-21-19 10:24:40 INFO 0 Starting Loop iteration. 
+02-21-19 10:25:24 INFO 0 Starting Loop iteration. 
+02-21-19 10:26:08 INFO 0 Starting Loop iteration. 
+02-21-19 10:26:51 INFO 0 Starting Loop iteration. 
+02-21-19 10:27:35 INFO 0 LoopId: trials, current loop value 2. 
+02-21-19 10:27:35 INFO 0 The composer test run ended 
