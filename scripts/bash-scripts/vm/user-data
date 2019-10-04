@@ -1,0 +1,8 @@
+#cloud-config
+password: Password1
+chpasswd: { expire: False }
+ssh_pwauth: True
+runcmd:
+ - [ bash, -xc, "echo $(date) ': hello world!'" ]
+ - modprobe uio
+final_message: "The system is finally up, after $UPTIME seconds"
